@@ -1,5 +1,6 @@
 package loiane.cursojava.aula17.lab;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exer31 {
@@ -13,12 +14,14 @@ public class Exer31 {
 		
 		salary += (salary / 100) * percentage;
 		
+		DecimalFormat format = new DecimalFormat("###,###.##");
+		
 		for (int i = 1997; i <= 2015; i++) {
 			percentage *= 2;
 			
 			salary += (salary / 100) * percentage;
 			
-			System.out.println(i + " = " + salary + " - " + percentage + "%");
+			System.out.println(i + " = " + format.format(salary) + " - " + percentage + "%");
 		}
 		
 		scan.close();
