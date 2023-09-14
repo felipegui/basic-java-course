@@ -13,8 +13,9 @@ public class Exer32 {
 		String output = "";
 		
 		do {
-			System.out.println("Enter the product code and quantity. Or press 0 and press enter twice to exit the program.");
+			System.out.println("Enter the product code. Or press 0 and press enter twice to exit the program.");
 			cod = scan.nextInt();
+			System.out.println("Enter the quantity of product. Or press 0 and press enter twice to exit the program.");
 			qtd = scan.nextInt();
 			
 			//Ends the program
