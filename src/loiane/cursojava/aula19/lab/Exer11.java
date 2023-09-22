@@ -17,7 +17,7 @@ public class Exer11 {
 		int counter = 0;
 		for (int i = 0; i < vetA.length; i++) {
 			if (vetA[i] % 2 == 0) {
-				counter += 1;
+				counter ++;
 			}
 		}
 		
