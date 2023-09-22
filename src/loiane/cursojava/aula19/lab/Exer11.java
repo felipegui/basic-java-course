@@ -21,7 +21,14 @@ public class Exer11 {
 			}
 		}
 		
-		System.out.println("Pair numbers: " + counter);
+		System.out.print("Array = ");
+		for (int i = 0; i < vetA.length; i++) {
+			System.out.print(vetA[i] + " ");
+		}
+		
+		System.out.println();
+		
+		System.out.print("Pair numbers: " + counter);
 		
 		scan.close();
 
