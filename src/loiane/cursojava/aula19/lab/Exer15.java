@@ -7,7 +7,7 @@ public class Exer15 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		int[] vetA = new int[4];
+		int[] vetA = new int[10];
 
 		for (int i = 0; i < vetA.length; i++) {
 			System.out.println("Insert the value position: " + i);
